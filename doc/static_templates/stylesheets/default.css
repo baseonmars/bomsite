@@ -1,0 +1,63 @@
+html, body {
+	height: 100%;
+}
+
+body { 
+	background-color: #de5444;
+	color: #ffecde;
+	font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+	font-size: 62.5%;
+	line-height: 1.8;
+}
+
+#logo {
+	text-indent: -9999px;
+	background: transparent url(../images/logo.png) repeat scroll top left;
+	width: 194px;
+	height: 134px;
+}
+
+	#logo a {
+		display: block;
+		height: 100%;
+	}
+	
+	#blurb {
+		font-size: 1.8em;
+		width: 440px;
+		float: right;
+	}
+	
+#primary-nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-top: 8px;
+	line-height: 1.2;
+}
+#primary-nav a {
+	text-decoration: none;
+	color: #ffecde;
+}
+#primary-nav a:hover {
+	color: #fff;
+}
+
+#primary-nav li {
+	display: inline-block;
+	width: 144px;
+	font-size: 1.2em;
+}
+
+#primary-nav strong {
+	font-size: 1.5em;
+	display: block;
+}
+
+#content {
+	clear: both;
+}
+
+h1 {
+	font-size: 3.6em;
+}
