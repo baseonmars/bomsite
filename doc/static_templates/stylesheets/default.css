@@ -1,20 +1,32 @@
 html, body {
-	height: 100%;
+	background-color: #de5443;
 }
 
 body { 
-	background-color: #de5444;
+	background-color: #de5443;
 	color: #ffecde;
 	font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
 	font-size: 62.5%;
 	line-height: 1.8;
+	padding-left: 8px;
+}
+
+#branding {
+	overflow: hidden;
 }
 
 #logo {
 	text-indent: -9999px;
-	background: transparent url(../images/logo.png) repeat scroll top left;
+	background: transparent url(../images/logo.png) no-repeat scroll top right;
 	width: 194px;
+	padding-left: 43px;
 	height: 134px;
+	float: left;
+	position: relative;
+	z-index: 1;
+	margin-top: 1.2em;
+	display: inline-block;
+	overflow: hidden;
 }
 
 	#logo a {
@@ -25,39 +37,102 @@ body {
 	#blurb {
 		font-size: 1.8em;
 		width: 440px;
-		float: right;
-	}
+		display: inline-block;
+		margin-top: 4em;
+		float: left;
+		position: relative;
+		margin-left: 195px;
+		z-index: 1.2;
+}
 	
 #primary-nav {
+	display: inline-block;
+	text-align: left;
 	position: absolute;
-	top: 0;
-	right: 0;
-	padding-top: 8px;
+		top: 0;
+		left: 0;
+		right: 0;
 	line-height: 1.2;
-}
-#primary-nav a {
-	text-decoration: none;
-	color: #ffecde;
-}
-#primary-nav a:hover {
-	color: #fff;
+	background: #d17654 url(../images/nav-background.png) repeat-x scroll bottom;
+	min-height: 4.3em;
+	padding-left: 440px;
+	width: auto;
+	z-index: 0;
 }
 
 #primary-nav li {
+	text-align: left;
 	display: inline-block;
 	width: 144px;
 	font-size: 1.2em;
 }
+
+#primary-nav a {
+	text-decoration: none;
+	color: #ffecde;
+	display: block;
+	padding: 8px 0 21px 0;
+}
+
+#primary-nav li.current a:link, #primary-nav li.current a:visited {
+	color: #fff0be;
+}
+#primary-nav a:hover, #primary-nav a:active {
+	color: #fff !important;
+}
+
 
 #primary-nav strong {
 	font-size: 1.5em;
 	display: block;
 }
 
-#content {
-	clear: both;
-}
-
 h1 {
 	font-size: 3.6em;
 }
+
+#content {
+	padding-left: 72px;
+	width: 576px;
+	clear: both;
+	padding-top: 14.4em;
+	position: relative;
+	overflow: hidden;
+	padding-right: 287px;
+	background: transparent url(../images/shed.png) no-repeat scroll top right;
+	min-height: 916px;
+	
+}
+
+	#content p {
+		font-size: 1.2em;
+	}
+	
+	#post-info {
+		float: left;
+		padding-right: 8px;
+		width: 64px;
+		padding-top: 0;
+		position: absolute;
+		left: 0;
+		top: 13.65em;
+	}
+	
+	#post-info .published {
+		text-align: center;
+	}
+	
+	#post-info .month {
+		display: block;
+		text-transform: uppercase;
+	}
+	
+	#post-info .day {
+		display: block;
+		font-size: 3em;
+		line-height: 1;
+	}
+	
+	#post-info .month {
+		display: block;
+	}
