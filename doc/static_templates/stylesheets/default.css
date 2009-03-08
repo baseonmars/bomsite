@@ -15,6 +15,10 @@ body {
 	overflow: hidden;
 }
 
+strong {
+	font-weight: bold;
+}
+
 #logo {
 	text-indent: -9999px;
 	background: transparent url(../images/logo.png) no-repeat scroll top right;
@@ -36,13 +40,14 @@ body {
 	
 	#blurb {
 		font-size: 1.8em;
-		width: 440px;
+		width: 400px;
 		display: inline-block;
 		margin-top: 4em;
 		float: left;
 		position: relative;
 		margin-left: 195px;
-		z-index: 1.2;
+		z-index: 1;
+		line-height: 1.5;
 }
 	
 #primary-nav {
@@ -116,6 +121,15 @@ h1 {
 		position: absolute;
 		left: 0;
 		top: 13.65em;
+		opacity: 0.5;
+	}
+	
+	#post-info:hover {
+		opacity: 1
+	}
+	
+	#post-info a {
+		color: #ffecde;
 	}
 	
 	#post-info .published {
@@ -125,6 +139,7 @@ h1 {
 	#post-info .month {
 		display: block;
 		text-transform: uppercase;
+		letter-spacing: 0.3em;
 	}
 	
 	#post-info .day {
@@ -136,3 +151,43 @@ h1 {
 	#post-info .month {
 		display: block;
 	}
+	
+	#post-info .year {
+		font-size: 0.883em;
+		letter-spacing: 0.3em;
+	}
+	
+	#post-info .byline {
+
+	}
+	
+	#post-info .byline, #post-info .permalink {
+		font-size: 0.833em;
+		text-align: center;
+		line-height: 1.8;
+	}
+	
+	#post-info .tags {
+		text-align: center;
+		line-height: 1.35;
+		margin-top: 0.45em;
+	}
+
+	#post-info .tags a:link {
+		text-decoration: none;
+	}
+
+	#post-info .tags a:hover {
+		text-decoration: underline;
+	}
+
+	#post-info .tags h2 {
+		font-weight: bold;
+	}
+	
+	#post-info .tags li {
+		display: inline-block;
+	}
+	
+
+	
