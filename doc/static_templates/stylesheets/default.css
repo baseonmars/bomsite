@@ -98,7 +98,7 @@ h1 {
 }
 
 #content {
-	padding-left: 72px;
+	padding-left: 7.2em;
 	width: 576px;
 	clear: both;
 	padding-top: 14.4em;
@@ -116,8 +116,8 @@ h1 {
 	
 	#post-info {
 		float: left;
-		padding-right: 8px;
-		width: 64px;
+		padding-right: 0.8em;
+		width: 6.4em;
 		padding-top: 0;
 		position: absolute;
 		left: 0;
@@ -178,7 +178,7 @@ h1 {
 		text-decoration: none;
 	}
 
-	#post-info .tags a:hover {
+	#post-info .tags a:hover, #post-info .tags a:active {
 		text-decoration: underline;
 	}
 
@@ -190,5 +190,32 @@ h1 {
 		display: inline-block;
 	}
 	
+#info {
+	margin: 8px 0;
+	width: 576px;
+}
 
-	
+#info a {
+	color: #ffecde;
+}
+
+#info a:hober {
+	color: #fff0be;
+}
+
+#info .cc-logo {
+	float: left;
+	width: 6.4em;
+
+	text-align :right;
+}
+
+#info .cc-logo img {
+	width: 64px;
+}
+
+#info p {
+	margin-left: 7.2em;
+	line-height: 1.2;
+	text-sign: 0.8em;
+}
