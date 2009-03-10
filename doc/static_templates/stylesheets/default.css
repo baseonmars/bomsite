@@ -90,6 +90,7 @@ strong {
 #primary-nav strong {
 	font-size: 1.5em;
 	display: block;
+	font-weight: normal;
 }
 
 h1 {
