@@ -30,7 +30,7 @@ strong {
 	position: absolute;
 	top: 0px;
 	width: 194px;
-	left: 5.6em;
+	left: 124px;
 	height: 134px;
 	z-index: 1;
 	margin-top: 1.2em;
@@ -45,10 +45,10 @@ strong {
 	#blurb {
 		font-size: 1.8em;
 		width: 400px;
-		padding-left: 440px;
+		padding-left: 504px;
 		z-index: 1;
 		line-height: 1.5;
-		margin-top: 4.6em;
+		margin-top: 4.3em;
 		position: relative;
 		opacity: 0.5;
 		text-shadow: 1px 1px 1px rgba(0,0,0, .3);
@@ -73,10 +73,10 @@ strong {
 	text-align: left;
 	display: inline-block;
 	vertical-align: top;
-	width: 144px;
+	width: 144px;;
 	font-size: 1.2em;
 	position: relative;
-	left: 448px;
+	left: 512px;
 }
 
 #primary-nav a {
@@ -105,10 +105,10 @@ h1 {
 }
 
 #content {
-	padding-left: 7.2em;
+	padding-left: 14.4em;
 	width: 576px;
 	clear: both;
-	padding-top: 7.2em;
+	padding-top: 7.4em;
 	position: relative;
 	overflow: hidden;
 	padding-right: 292px;
@@ -128,14 +128,15 @@ h1 {
 	
 	#post-info {
 		float: left;
-		padding-right: 0.8em;
+		padding-right: 0;
 		width: 6.4em;
 		padding-top: 0;
 		position: absolute;
-		left: 0;
-		top: 6.45em;
+		left: 8em;
+		top: 6.65em;
 		opacity: 0.5;
 		text-shadow: 1px 1px 1px rgba(0,0,0, .3);
+		overflow: visible;
 	}
 	
 	#post-info:hover, #post-info:active {
