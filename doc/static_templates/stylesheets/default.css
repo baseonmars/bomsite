@@ -1,5 +1,5 @@
 html, body {
-	background-color: #de5443;
+	background: #de5443 url(../images/background.jpg) no-repeat scroll top left;
 }
 
 body { 
@@ -28,7 +28,7 @@ strong {
 	text-indent: -9999px;
 	background: transparent url(../images/logo.png) no-repeat scroll top right;
 	position: absolute;
-	top: -3px;
+	top: 0px;
 	width: 194px;
 	left: 5.6em;
 	height: 134px;
@@ -48,7 +48,8 @@ strong {
 		padding-left: 440px;
 		z-index: 1;
 		line-height: 1.5;
-		margin-top: 4.8em;
+		margin-top: 4.6em;
+		position: relative;
 		opacity: 0.5;
 		text-shadow: 1px 1px 1px rgba(0,0,0, .3);
 
@@ -57,8 +58,8 @@ strong {
 	
 #primary-nav {
 	line-height: 1.2;
-	background: #d17654 url(../images/nav-background.png) repeat-x scroll bottom;
-	min-height: 4.3em;
+	background: url(../images/nav-background.png) repeat-x scroll bottom;
+	min-height: 8em;
 	width: 100%;
 	position: absolute;
 	top: 0;
